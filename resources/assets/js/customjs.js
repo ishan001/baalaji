@@ -1,6 +1,6 @@
 jQuery.noConflict();
 
-var $ = jQuery;
+//var $ = jQuery;
 
 $(document).ready(function(){
 

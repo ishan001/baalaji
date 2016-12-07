@@ -23,25 +23,24 @@ elixir(function (mix) {
         ], 'public/css/vendor.css')
 
         .scripts([
-            'jquery.flexslider.js',
-
+            //'jquery.flexslider.js',
             'jquery.themepunch.plugins.min.js',
             'jquery.themepunch.revolution.min.js',
-            'jquery.fitvids.js',
-            'superfish.js',
-            'jcarousel.js',
-            'jquery.form.min.js'
-        ], 'public/js/vendor.js')
+            //'jquery.fitvids.js',
+            //'superfish.js',
+            //'jcarousel.js',
+            //'jquery.form.min.js'
+        ], 'public/js/vendor.js');
         
-        .scripts([
+/*        .scripts([
             'customjs.js',
             'scripts.js'
-        ], 'public/js/script.js');
+        ], 'public/js/script.js');*/
 
     mix.version([
         'public/css/style.css',
         'public/css/vendor.css',
-        'public/js/script.js',
+        //'public/js/script.js',
         'public/js/vendor.js'
     ]);
 
