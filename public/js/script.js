@@ -58,7 +58,23 @@ $(document).ready(function () {
         return false;
     });
 
+    $("a[class^='prettyPhoto']").prettyPhoto({
+
+        opacity: 0.50,
+
+        theme: 'light_square',
+
+        show_title: false,
+
+        horizontal_padding: 20,
+
+        social_tools: false
+
+    });
+    $('a.prettyPhoto').prettyPhoto();
+
 });
+
 
 function clearMenuLink() {
     $('#home').removeClass('menu-active');
