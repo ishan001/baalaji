@@ -14,33 +14,51 @@ var elixir = require('laravel-elixir');
 elixir(function (mix) {
     mix.sass([
         'style.scss',
-        'style_wide.scss'
+        'loader.scss'
         ], 'public/css/style.css')
 
         .sass([
-            'media.scss',
-            'prettyPhoto.scss'
+            'animate.scss',
+            'bootsnav.scss',
+            'bootstrap.scss',
+            'cubeportfolio.scss',
+            'owl.carousel.scss',
+            'owl.transitions.scss',
+            'slider.scss',
         ], 'public/css/vendor.css')
 
+        .sass([
+            'font-awesome.scss',
+            'patta-icons.scss',
+        ], 'public/css/fonts.css')
+
         .scripts([
-            //'jquery.flexslider.js',
-            'jquery.themepunch.plugins.min.js',
+            'bootsnav.js',
+            'bootstrap.min.js',
             'jquery.themepunch.revolution.min.js',
-            //'jquery.fitvids.js',
-            //'superfish.js',
-            //'jcarousel.js',
-            //'jquery.form.min.js'
-        ], 'public/js/vendor.js');
+            'jquery.cubeportfolio.min.js',
+            'jquery.parallax-1.1.3.js',
+            'jquery.themepunch.revolution.min.js',
+            'jquery.themepunch.tools.min.js',
+            'owl.carousel.min.js',
+            'revolution.extension.layeranimation.min.js',
+            'revolution.extension.navigation.min.js',
+            'revolution.extension.parallax.min.js',
+            'revolution.extension.slideanims.min.js',
+            'revolution.extension.video.min.js',
+            'viedobox_video.js',
+            'wow.min.js',
+        ], 'public/js/vendor.js')
         
-/*        .scripts([
-            'customjs.js',
-            'scripts.js'
-        ], 'public/js/script.js');*/
+        .scripts([
+            'functions.js'
+        ], 'public/js/script.js');
 
     mix.version([
         'public/css/style.css',
         'public/css/vendor.css',
-        //'public/js/script.js',
+        'public/css/fonts.css',
+        'public/js/script.js',
         'public/js/vendor.js'
     ]);
 
