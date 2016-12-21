@@ -4,26 +4,34 @@
 
 
 @section('content')
-    <div class="page_title_ctn">
-        <div id="top_shadow"></div>
-        <div class="wrapper">
-            <div class="title_bb">
-                <div class="page_title">
-                    About
+    <section class="page_header">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <p>Who We Are</p>
+                    <h1 class="text-uppercase"> About Us</h1>
                 </div>
-                <div class="page_subtitle"> get to know us, we have a lot to offer</div>
             </div>
-            <div id="breadcrumbs">
-                <div id="crumbs"><a href="/">Home</a> &nbsp;&nbsp;&raquo;&nbsp;&nbsp; <span>About</span></div>
+        </div>
+    </section>
+    <div class="page_linker">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <ul class="breadcrumb">
+                        <li><a href="index.html"><i class="icon-home6"></i>Home</a></li>
+                        <li class="active">About Us</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
-    <div class="section">
-        <div class="wrapper">
-            <div id="pb_ctn">
-                <div class='pb_full_width module_cont module_text_area' style='padding-top:0px; padding-bottom:30px;'>
-                    <div class="sc_divider"><span style="font-size:20px; font-weight:bold; ">About Us</span></div>
-                    <div style="clear:both; padding-top:20px"></div>
+    <section id="about" class="padding-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 padding-bottom"> <img src="images/about.jpg" alt="About Us" class="img-responsive"> </div>
+                <div class="col-sm-6 about_right padding-bottom">
+                    <h2 class="bottom10">We Innovate & <span class="blue_t">Design</span></h2>
                     <p>BAALAJI CHEMICALS is one of the main supplier of chemical raw materials for industries such as
                         detergents,paint,rubber,ceramic,fiber,laundry,laboratory,toilatries,personalcare etc, we have
                         been able to build up a well-recognized business network that is sprawled all across Sri Lanka
@@ -40,11 +48,22 @@
                         They are fully aware with the demands of our clientele and proffer them preferred products in
                         particular time limit. Furthermore, advanced R&D, quality testing and storehouse & casing
                         facilities, aides us. </p>
-                </div>
-                <div class='clear'>
+                    <div class="number-counters text-center">
+                        <div class="counters-item top15">
+                            <p class="data"><strong data-to="12">0</strong></p>
+                            <p>Years of Experience</p>
+                        </div>
+                        <div class="counters-item top15">
+                            <p class="data"><strong data-to="14">0</strong><sub>k</sub></p>
+                            <p>Happy Clients</p>
+                        </div>
+                        <div class="counters-item top15">
+                            <p class="data"><strong data-to="100">0</strong><sub>%</sub></p>
+                            <p>Satisfaction</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
+    </section>
 @stop

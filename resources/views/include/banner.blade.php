@@ -2,7 +2,7 @@
     <div id="rev_slider" class="rev_slider top" data-version="5.0">
         <ul>
             <!-- SLIDE  -->
-            <li data-transition="fade">
+            <li data-transition="slotzoom-horizontal">
                 <!-- MAIN IMAGE -->
                 <img src="/images/banner1.jpg" alt="" data-bgposition="center center" data-bgfit="cover">
                 <!-- LAYER NR. 1 -->
@@ -24,7 +24,7 @@
                     <strong class="green_t">Chemical Products</strong>
                 </h1>
             </li>
-            <li data-transition="slideoverup">
+            <li data-transition="cube-horizontal">
                 <img src="/images/banner2.jpg" alt="" data-bgposition="center center" data-bgfit="cover">
                 <h1 class="tp-caption  tp-resizeme uppercase"
                     data-x="['left','left','left','center']" data-hoffset="['0','15','15','15']"
@@ -43,7 +43,7 @@
                     <strong class="green_t">Men Cologne, Women Perfume</strong>
                 </h1>
             </li>
-            <li data-transition="slideoverup">
+            <li data-transition="3dcurtain-horizontal">
                 <img src="/images/banner3.jpg" alt="" data-bgposition="center center" data-bgfit="cover">
                 <h1 class="tp-caption  tp-resizeme uppercase"
                     data-x="['left','left','left','center']" data-hoffset="['0','15','15','15']"
