@@ -58,8 +58,8 @@
                     </div>
                 </div>
                 <div class="cbp-item other">
-                    <a href="images/products/rubber-chemicals.jpg" class="cbp-lightbox">
-                        <img src="images/products/thumbs/rubber-chemicals.jpg" alt="rubber">
+                    <a href="/images/products/rubber-chemicals.jpg" class="cbp-lightbox">
+                        <img src="/images/products/thumbs/rubber-chemicals.jpg" alt="rubber">
                     </a>
                     <div class="project_cap top15">
                         <h4>Rubber</h4>
