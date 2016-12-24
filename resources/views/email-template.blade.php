@@ -12,10 +12,11 @@
         <td>{{ $email }}</td>
     </tr>
     <tr>
-        <td align='right'>Message</td>
+        <td align='right'>Email</td>
         <td width='16' align='center'>:</td>
-        <td>{{ $message }}</td>
+        <td>{{ $msg }}</td>
     </tr>
+
 </table>
 </body>
 </html>

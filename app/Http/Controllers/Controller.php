@@ -20,9 +20,9 @@ class Controller extends BaseController
         ]);
 
         $data = [
-            'name'    => $request->input('name'),
-            'email'   => $request->input('email'),
-            'message' => $request->input('message'),
+            'name'  => $request->input('name'),
+            'email' => $request->input('email'),
+            'msg'   => $request->input('message'),
         ];
         Mail::send('email-template', $data, function ($message) use ($data) {
             $message->from('noreply@baalajichemical.com');
@@ -36,14 +36,14 @@ class Controller extends BaseController
     public function callSubmitForm(Request $request)
     {
         $this->validate($request, [
-            'name'    => 'required',
-            'phone'   => 'required'
+            'name'  => 'required',
+            'phone' => 'required'
         ]);
 
         $data = [
-            'name'    => $request->input('name'),
-            'phone'   => $request->input('phone'),
-            'message' => $request->input('message'),
+            'name'  => $request->input('name'),
+            'phone' => $request->input('phone'),
+            'msg'   => $request->input('message'),
         ];
         Mail::send('phone-template', $data, function ($message) use ($data) {
             $message->from('noreply@baalajichemical.com');

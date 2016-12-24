@@ -4,7 +4,7 @@
     <tr>
         <td align='right'>Name</td>
         <td width='16' align='center'>:</td>
-        <td>{{ $name}}</td>
+        <td>{{ $name }}</td>
     </tr>
     <tr>
         <td align='right'>Phone</td>
@@ -14,7 +14,7 @@
     <tr>
         <td align='right'>Message</td>
         <td width='16' align='center'>:</td>
-        <td>{{ $message }}</td>
+        <td>{{ $msg }}</td>
     </tr>
 </table>
 </body>
