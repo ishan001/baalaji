@@ -34,24 +34,24 @@
             </div>
             <div id="projects" class="cbp">
                 <div class="cbp-item home-care">
-                    <a href="images/products/detergents-chemicals.jpg" class="cbp-lightbox">
-                        <img src="images/products/thumbs/detergents-chemicals.jpg" alt="detergents chemicals">
+                    <a href="/images/products/detergents-chemicals.jpg" class="cbp-lightbox">
+                        <img src="/images/products/thumbs/detergents-chemicals.jpg" alt="detergents chemicals">
                     </a>
                     <div class="project_cap top15">
                         <h4>Detergents</h4>
                     </div>
                 </div>
                 <div class="cbp-item home-care">
-                    <a href="images/products/toiletries-chemicals.jpg" class="cbp-lightbox">
-                        <img src="images/products/thumbs/toiletries-chemicals.jpg" alt=" toiletries chemicals">
+                    <a href="/images/products/toiletries-chemicals.jpg" class="cbp-lightbox">
+                        <img src="/images/products/thumbs/toiletries-chemicals.jpg" alt=" toiletries chemicals">
                     </a>
                     <div class="project_cap top15">
                         <h4>Toiletries</h4>
                     </div>
                 </div>
                 <div class="cbp-item home-care">
-                    <a href="images/products/personal-care-chemicals.jpg" class="cbp-lightbox">
-                        <img src="images/products/thumbs/personal-care-chemicals.jpg" alt="personal care chemicals">
+                    <a href="/images/products/personal-care-chemicals.jpg" class="cbp-lightbox">
+                        <img src="/images/products/thumbs/personal-care-chemicals.jpg" alt="personal care chemicals">
                     </a>
                     <div class="project_cap top15">
                         <h4>Personal Care</h4>
@@ -66,56 +66,56 @@
                     </div>
                 </div>
                 <div class="cbp-item other">
-                    <a href="images/products/cosmetic-chemicals.jpg" class="cbp-lightbox">
-                        <img src="images/products/thumbs/cosmetic-chemicals.jpg" alt="cosmetic">
+                    <a href="/images/products/cosmetic-chemicals.jpg" class="cbp-lightbox">
+                        <img src="/images/products/thumbs/cosmetic-chemicals.jpg" alt="cosmetic">
                     </a>
                     <div class="project_cap top15">
                         <h4>Cosmetic</h4>
                     </div>
                 </div>
                 <div class="cbp-item home-care">
-                    <a href="images/products/paint-chemicals.jpg" class="cbp-lightbox">
-                        <img src="images/products/thumbs/paint-chemicals.jpg" alt="paints">
+                    <a href="/images/products/paint-chemicals.jpg" class="cbp-lightbox">
+                        <img src="/images/products/thumbs/paint-chemicals.jpg" alt="paints">
                     </a>
                     <div class="project_cap top15">
                         <h4>Paints</h4>
                     </div>
                 </div>
                 <div class="cbp-item chemicals">
-                    <a href="images/products/ceramic-chemicals.jpg" class="cbp-lightbox">
-                        <img src="images/products/thumbs/ceramic-chemicals.jpg" alt="ceramic">
+                    <a href="/images/products/ceramic-chemicals.jpg" class="cbp-lightbox">
+                        <img src="/images/products/thumbs/ceramic-chemicals.jpg" alt="ceramic">
                     </a>
                     <div class="project_cap top15">
                         <h4>Ceramic</h4>
                     </div>
                 </div>
                 <div class="cbp-item other">
-                    <a href="images/products/fiber-chemicals.jpg" class="cbp-lightbox">
-                        <img src="images/products/thumbs/fiber-chemicals.jpg" alt="fiber">
+                    <a href="/images/products/fiber-chemicals.jpg" class="cbp-lightbox">
+                        <img src="/images/products/thumbs/fiber-chemicals.jpg" alt="fiber">
                     </a>
                     <div class="project_cap top15">
                         <h4>Fiber</h4>
                     </div>
                 </div>
                 <div class="cbp-item chemicals">
-                    <a href="images/products/laboratory-chemicals.jpg" class="cbp-lightbox">
-                        <img src="images/products/thumbs/laboratory-chemicals.jpg" alt="laboratory">
+                    <a href="/images/products/laboratory-chemicals.jpg" class="cbp-lightbox">
+                        <img src="/images/products/thumbs/laboratory-chemicals.jpg" alt="laboratory">
                     </a>
                     <div class="project_cap top15">
                         <h4>Laboratory</h4>
                     </div>
                 </div>
                 <div class="cbp-item home-care chemicals">
-                    <a href="images/products/laundry-chemicals.jpg" class="cbp-lightbox">
-                        <img src="images/products/thumbs/laundry-chemicals.jpg" alt="laundry">
+                    <a href="/images/products/laundry-chemicals.jpg" class="cbp-lightbox">
+                        <img src="/images/products/thumbs/laundry-chemicals.jpg" alt="laundry">
                     </a>
                     <div class="project_cap top15">
                         <h4>Laundry</h4>
                     </div>
                 </div>
                 <div class="cbp-item home-care chemicals">
-                    <a href="images/products/perfumery-chemicals.jpg" class="cbp-lightbox">
-                        <img src="images/products/thumbs/perfumery-chemicals.jpg" alt="perfumery">
+                    <a href="/images/products/perfumery-chemicals.jpg" class="cbp-lightbox">
+                        <img src="/images/products/thumbs/perfumery-chemicals.jpg" alt="perfumery">
                     </a>
                     <div class="project_cap top15">
                         <h4>Perfumery</h4>
