@@ -13,7 +13,7 @@ jQuery(function ($) {
         lat: map.getCenter().lat(),
         lng: map.getCenter().lng(),
         layer: 'overlayLayer',
-        content: '<div class="overlay_map"><img src="images/marker.png"><div class="overlay_arrow above"></div></div>',
+        content: '<div class="overlay_map"><img src="/images/marker.png"><div class="overlay_arrow above"></div></div>',
         verticalAlign: 'top',
         horizontalAlign: 'center'
     });
