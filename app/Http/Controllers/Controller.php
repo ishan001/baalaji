@@ -24,7 +24,7 @@ class Controller extends BaseController
             'email'   => $request->input('email'),
             'message' => $request->input('message'),
         ];
-        Mail::send('email.template', $data, function ($message) use ($data) {
+        Mail::send('email-template', $data, function ($message) use ($data) {
             $message->from('noreply@baalajichemical.com');
             $message->to('info@baalajichemical.com')->subject('Baalaji Chemicals Contact Us Request!');
         });
@@ -45,7 +45,7 @@ class Controller extends BaseController
             'phone'   => $request->input('phone'),
             'message' => $request->input('message'),
         ];
-        Mail::send('phone.template', $data, function ($message) use ($data) {
+        Mail::send('phone-template', $data, function ($message) use ($data) {
             $message->from('noreply@baalajichemical.com');
             $message->to('info@baalajichemical.com')->subject('Baalaji Chemicals Call Us Request!');
         });
