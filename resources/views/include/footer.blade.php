@@ -21,7 +21,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-4 footer_panel heading_space">
-                <a href="/" class="footer_logo bottom30"><img src="images/logo-white.png" alt="Baalaji Chemical"></a>
+                <a href="/" class="footer_logo bottom30"><img src="{{ url('/images/logo-white.png') }}" alt="Baalaji Chemical"></a>
                 <ul class="social_icon heading_top">
                     <li><a href="#." class="facebook"><i class="fa fa-facebook"></i></a></li>
                     <li><a href="#." class="twitter"><i class="icon-twitter4"></i></a></li>
@@ -33,10 +33,10 @@
             <div class="col-sm-8 footer_panel heading_space">
                 <h3 class="heading bottom30">Useful <span class="green_t">Links</span></h3>
                 <ul class="links">
-                    <li><a href="/"><i class="icon-chevron-small-right"></i>Home</a></li>
-                    <li><a href="/about-us"><i class="icon-chevron-small-right"></i>About us</a></li>
-                    <li><a href="/products"><i class="icon-chevron-small-right"></i>Our Product</a></li>
-                    <li><a href="/contact-us"><i class="icon-chevron-small-right"></i>Contact us</a></li>
+                    <li><a href="{{ url('/') }}"><i class="icon-chevron-small-right"></i>Home</a></li>
+                    <li><a href="{{ url('/about-us') }}"><i class="icon-chevron-small-right"></i>About us</a></li>
+                    <li><a href="{{ url('/products') }}"><i class="icon-chevron-small-right"></i>Our Product</a></li>
+                    <li><a href="{{ url('/contact-us') }}"><i class="icon-chevron-small-right"></i>Contact us</a></li>
                 </ul>
             </div>
 

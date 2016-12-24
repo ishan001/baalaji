@@ -4,7 +4,7 @@
             <!-- SLIDE  -->
             <li data-transition="slotzoom-horizontal">
                 <!-- MAIN IMAGE -->
-                <img src="/images/banner1.jpg" alt="" data-bgposition="center center" data-bgfit="cover">
+                <img src="{{ url('/images/banner1.jpg') }}" alt="" data-bgposition="center center" data-bgfit="cover">
                 <!-- LAYER NR. 1 -->
                 <h1 class="tp-caption  tp-resizeme uppercase"
                     data-x="['left','left','left','center']" data-hoffset="['0','15','15','15']"
@@ -25,7 +25,7 @@
                 </h1>
             </li>
             <li data-transition="cube-horizontal">
-                <img src="/images/banner2.jpg" alt="" data-bgposition="center center" data-bgfit="cover">
+                <img src="/{{ url('/images/banner2.jpg') }}" alt="" data-bgposition="center center" data-bgfit="cover">
                 <h1 class="tp-caption  tp-resizeme uppercase"
                     data-x="['left','left','left','center']" data-hoffset="['0','15','15','15']"
                     data-y="['290','190','190','100']" data-voffset="['0','0','0','0']"
@@ -44,7 +44,7 @@
                 </h1>
             </li>
             <li data-transition="3dcurtain-horizontal">
-                <img src="/images/banner3.jpg" alt="" data-bgposition="center center" data-bgfit="cover">
+                <img src="{{ url('/images/banner3.jpg') }}" alt="" data-bgposition="center center" data-bgfit="cover">
                 <h1 class="tp-caption  tp-resizeme uppercase"
                     data-x="['left','left','left','center']" data-hoffset="['0','15','15','15']"
                     data-y="['290','190','190','100']" data-voffset="['0','0','0','0']"

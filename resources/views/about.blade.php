@@ -24,7 +24,7 @@
     <section id="about" class="padding-top-half">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 padding-bottom"> <img src="images/about-us.jpg" alt="About Us" class="img-responsive"> </div>
+                <div class="col-sm-6 padding-bottom"> <img src="{{ url('/images/about-us.jpg') }}" alt="About Us" class="img-responsive"> </div>
                 <div class="col-sm-6 about_right padding-bottom">
                     <h2 class="bottom10">We Innovate & <span class="green_t">Entrepreneurial</span></h2>
                     <p>BAALAJI CHEMICALS is one of the main supplier of chemical raw materials for industries such as
