@@ -23,9 +23,8 @@ $app = new Laravel\Lumen\Application(
     realpath(__DIR__.'/../')
 );
 
-// $app->withFacades();
-
-// $app->withEloquent();
+ $app->withFacades();
+ $app->withEloquent();
 
 /*
 |--------------------------------------------------------------------------
@@ -78,7 +77,7 @@ $app->singleton(
 |
 */
 
-// $app->register(App\Providers\AppServiceProvider::class);
+ $app->register(App\Providers\AppServiceProvider::class);
 // $app->register(App\Providers\AuthServiceProvider::class);
 // $app->register(App\Providers\EventServiceProvider::class);
 
@@ -92,6 +91,7 @@ $app->singleton(
 | can respond to, as well as the controllers that may handle them.
 |
 */
+$app->configure('services');
 
 $app->group(['namespace' => 'App\Http\Controllers'], function ($app) {
     require __DIR__.'/../app/Http/routes.php';

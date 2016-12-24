@@ -55,3 +55,4 @@
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <script src="{{ elixir('js/vendor.js') }}"></script>
 <script src="{{ elixir('js/script.js') }}"></script>
+@yield('scripts')

@@ -5,7 +5,7 @@ $app->get('/', function () {
         'menu' => 'home',
     ];
 
-    return view('home',$data);
+    return view('home', $data);
 });
 
 $app->get('/about-us', function () {
@@ -13,7 +13,7 @@ $app->get('/about-us', function () {
         'menu' => 'about',
     ];
 
-    return view('about',$data);
+    return view('about', $data);
 });
 
 $app->get('/products', function () {
@@ -21,5 +21,22 @@ $app->get('/products', function () {
         'menu' => 'products',
     ];
 
-    return view('products',$data);
+    return view('products', $data);
 });
+
+$app->get('/contact-us', function () {
+    $data = [
+        'menu' => 'contact',
+    ];
+
+    return view('contact', $data);
+});
+
+$app->post('form-submit', [
+    'as' => 'form-submit',
+    'uses' => 'Controller@submitForm'
+]);
+$app->post('call-us-submit', [
+    'as' => 'call-us-submit',
+    'uses' => 'Controller@callSubmitForm'
+]);

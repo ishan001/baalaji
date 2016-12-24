@@ -46,10 +46,15 @@ elixir(function (mix) {
             'revolution.extension.parallax.min.js',
             'revolution.extension.slideanims.min.js',
             'revolution.extension.video.min.js',
-            'viedobox_video.js',
+            'jquery.appear.js',
+            'jquery-countTo.js',
             'wow.min.js',
+            'validator.min.js',
         ], 'public/js/vendor.js')
-        
+        .scripts([
+            'gmaps.min.js',
+            'map.js'
+        ], 'public/js/map.js')
         .scripts([
             'functions.js'
         ], 'public/js/script.js');
@@ -59,7 +64,8 @@ elixir(function (mix) {
         'public/css/vendor.css',
         'public/css/fonts.css',
         'public/js/script.js',
-        'public/js/vendor.js'
+        'public/js/vendor.js',
+        'public/js/map.js'
     ]);
 
 });

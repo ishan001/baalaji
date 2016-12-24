@@ -3,6 +3,7 @@
 @section('title', 'Home')
 
 @section('content')
+    @include('include.home-header')
     @include('include.banner')
     <section id="info" class="padding">
         <div class="container">
@@ -106,16 +107,17 @@
                         <h2 class="bottom10 text-center">Request a <span class="green_t">Call Back </span></h2>
                         <p class="text-center bottom20">If you need to speak to us about a general query fill in the form
                             below and we will call you back within the same working day.</p>
-                        <form class="callus">
+                        <form class="callus" role="form" data-toggle="validator" action="{{ route('call-us-submit') }}" id="callus-form">
                             <div class="row">
                                 <div class="col-sm-6 form-group">
-                                    <input type="text" class="form-control" placeholder="Your Name" required>
+                                    <input type="text" class="form-control" placeholder="Your Name" required name="name" id="name">
                                 </div>
                                 <div class="col-sm-6 form-group">
-                                    <input type="tel" class="form-control" placeholder="Phone Number" required>
+                                    <input type="tel" class="form-control" placeholder="Phone Number" required name="phone" id="phone">
                                 </div>
                                 <div class="col-sm-12 form-group">
                                     <textarea name="message" id="message" class="form-control" rows="2" placeholder="Message" ></textarea>
+                                    <div id="result"></div>
                                     <button type="submit" class="btn-green top10 border_radius text-uppercase">Submit
                                     </button>
                                 </div>

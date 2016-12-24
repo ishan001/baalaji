@@ -9,12 +9,11 @@
     <meta name="keywords"
           content="Sri Lanka Chemicals, Sri Lanka Chemicals Suppliers, Sri Lanka Chemical Distributors,Sri Lanka Chemical Manufacturers,Sri Lanka Chemical Companies,Sri Lanka Industrial Chemicals, Pettah Chemicals    "/>
     <meta http-equiv="Content-Script-Type" content="text/javascript"/>
-    <link rel="shortcut icon" href="/images/fav.png"/>
-    <link rel="stylesheet" href="{{ elixir('css/style.css') }}">
+    <link rel="shortcut icon" href="/images/favicon.png"/>
     <link rel="stylesheet" href="{{ elixir('css/vendor.css') }}">
+    <link rel="stylesheet" href="{{ elixir('css/style.css') }}">
     <link rel="stylesheet" href="{{ elixir('css/fonts.css') }}">
 </head>
-
 <body>
 <div class="loader">
     <div class="cssload-loader">
@@ -26,7 +25,6 @@
         </div>
     </div>
 </div>
-@include('include.header')
 @yield('content')
 @include('include.footer')
 </body>

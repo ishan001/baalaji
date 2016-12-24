@@ -1,37 +1,32 @@
 @extends('master')
 
-@section('title', 'Home')
-
-
+@section('title', 'About')
 @section('content')
-    <section class="page_header">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 text-center">
-                    <p>Who We Are</p>
-                    <h1 class="text-uppercase"> About Us</h1>
-                </div>
-            </div>
-        </div>
-    </section>
+    @include('include.page-header')
     <div class="page_linker">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
                     <ul class="breadcrumb">
-                        <li><a href="index.html"><i class="icon-home6"></i>Home</a></li>
+                        <li><a href="/"><i class="icon-home6"></i>Home</a></li>
                         <li class="active">About Us</li>
                     </ul>
                 </div>
             </div>
+            <div class="row margin-top-20">
+                <div class="row border-title">
+                    <h2><span>About US</span></h2>
+                    <p class="text-center">get to know us, we have a lot to offer</p>
+                </div>
+            </div>
         </div>
     </div>
-    <section id="about" class="padding-top">
+    <section id="about" class="padding-top-half">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 padding-bottom"> <img src="images/about.jpg" alt="About Us" class="img-responsive"> </div>
+                <div class="col-sm-6 padding-bottom"> <img src="images/about-us.jpg" alt="About Us" class="img-responsive"> </div>
                 <div class="col-sm-6 about_right padding-bottom">
-                    <h2 class="bottom10">We Innovate & <span class="blue_t">Design</span></h2>
+                    <h2 class="bottom10">We Innovate & <span class="green_t">Entrepreneurial</span></h2>
                     <p>BAALAJI CHEMICALS is one of the main supplier of chemical raw materials for industries such as
                         detergents,paint,rubber,ceramic,fiber,laundry,laboratory,toilatries,personalcare etc, we have
                         been able to build up a well-recognized business network that is sprawled all across Sri Lanka
@@ -50,7 +45,7 @@
                         facilities, aides us. </p>
                     <div class="number-counters text-center">
                         <div class="counters-item top15">
-                            <p class="data"><strong data-to="12">0</strong></p>
+                            <p class="data"><strong data-to="20">0</strong></p>
                             <p>Years of Experience</p>
                         </div>
                         <div class="counters-item top15">
