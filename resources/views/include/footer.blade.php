@@ -25,9 +25,7 @@
                 <ul class="social_icon heading_top">
                     <li><a href="#." class="facebook"><i class="fa fa-facebook"></i></a></li>
                     <li><a href="#." class="twitter"><i class="icon-twitter4"></i></a></li>
-                    <li><a href="#." class="dribble"><i class="icon-dribbble5"></i></a></li>
-                    <li><a href="#." class="instagram"><i class="icon-instagram"></i></a></li>
-                    <li><a href="#." class="vimo"><i class="icon-vimeo4"></i></a></li>
+                    <li><a href="#." class="google"><i class="icon-google-plus"></i></a></li>
                 </ul>
             </div>
             <div class="col-sm-8 footer_panel heading_space">
