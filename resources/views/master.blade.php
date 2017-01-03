@@ -6,6 +6,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="description"
           content=" Sri Lanka Chemicals, Chemicals from Sri Lanka Pettah Supplier - Find Variety Chemicals from Baalaji Chemicals,  Buy Chemicals Made in Sri Lanka  Pettah ,  Sri Lanka Chemicals Suppliers, Sri Lanka Chemical Distributors,Sri Lanka Chemical Manufacturers,Sri Lanka Chemical Companies,Sri Lanka Industrial Chemicals, Pettah Chemicals "/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords"
           content="Sri Lanka Chemicals, Sri Lanka Chemicals Suppliers, Sri Lanka Chemical Distributors,Sri Lanka Chemical Manufacturers,Sri Lanka Chemical Companies,Sri Lanka Industrial Chemicals, Pettah Chemicals    "/>
     <meta http-equiv="Content-Script-Type" content="text/javascript"/>
