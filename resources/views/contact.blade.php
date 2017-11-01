@@ -91,7 +91,7 @@
                                     <span><i class="fa fa-envelope"></i></span>
                                     <div class="text">
                                         <h4>Email Address</h4>
-                                        <p><a href="#.">info@envas.com</a></p>
+                                        <p><a href="mailto:info@baalajichemical.com">info@baalajichemical.com</a></p>
                                     </div>
                                 </div>
                             </div>
